@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    <script src="assets\javascript\game.js"></script>
+</head>
+
+<body  onload="PrettyUpPage()" onkeypress="KeyTheyPressed()">
+
+    <div id="title">Word Guess Game - Pizza!</div>
+
+    <div id ="divbox">
+
+        Click a letter to give it a try:<br><br>
+
+        <span onclick="LetterClick('A')">A</span><span onclick="LetterClick('B')">B</span><span
+            onclick="LetterClick('C')">C</span>
+        <span onclick="LetterClick('D')">D</span><span onclick="LetterClick('E')">E</span><span
+            onclick="LetterClick('F')">F</span>
+        <span onclick="LetterClick('G')">G</span><span onclick="LetterClick('H')">H</span><span
+            onclick="LetterClick('I')">I</span>
+        <span onclick="LetterClick('J')">J</span><span onclick="LetterClick('K')">K</span><span
+            onclick="LetterClick('L')">L</span>
+        <span onclick="LetterClick('M')">M</span><span onclick="LetterClick('N')">N</span><span
+            onclick="LetterClick('O')">O</span>
+        <span onclick="LetterClick('P')">P</span><span onclick="LetterClick('Q')">Q</span><span
+            onclick="LetterClick('R')">R</span>
+        <span onclick="LetterClick('S')">S</span><span onclick="LetterClick('T')">T</span><span
+            onclick="LetterClick('U')">U</span>
+        <span onclick="LetterClick('V')">V</span><span onclick="LetterClick('W')">W</span><span
+            onclick="LetterClick('X')">X</span>
+        <span onclick="LetterClick('Y')">Y</span><span onclick="LetterClick('Z')">Z</span>
+
+
+    </div>
+
+    <div id="WordDisplay">WordDisplay</div>
+
+    <div id="Info">You have 7 tries left.</div>
+
+    <div id="Info2">You haven't chose</div>
+
+    <div id="Info3">Wins/Loses</div>
+
+
+
+</body>
+
+</html>

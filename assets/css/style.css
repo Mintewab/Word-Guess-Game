@@ -1,0 +1,22 @@
+body {
+    width: 960px;
+    min-height: 420px;
+    background-color: #000000;
+    background: #000000;
+    font-size: 20px;
+    font-family: 'Helvetica Neue' , 'Lucida Grande' , 'Segoe UI' , Arial, Helvetica, Verdana, sans-serif;
+    border: 1px solid #CCCC00;
+    margin: 2px auto auto 0px;
+    padding: 2px;
+    color: #CCCCCC;
+
+}
+
+#title {
+    font-size: 40px;
+}
+
+#divbox {
+    height: 100px;
+    
+}

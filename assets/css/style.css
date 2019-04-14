@@ -4,12 +4,11 @@ body {
     background-color: #000000;
     background: #000000;
     font-size: 20px;
-    font-family: 'Helvetica Neue' , 'Lucida Grande' , 'Segoe UI' , Arial, Helvetica, Verdana, sans-serif;
+    font-family: 'Helvetica Neue', 'Lucida Grande', 'Segoe UI', Arial, Helvetica, Verdana, sans-serif;
     border: 1px solid #CCCC00;
     margin: 2px auto auto 0px;
     padding: 2px;
     color: #CCCCCC;
-
 }
 
 #title {
@@ -18,5 +17,4 @@ body {
 
 #divbox {
     height: 100px;
-    
 }

@@ -1,20 +1,27 @@
-body {
-    width: 960px;
-    min-height: 420px;
-    background-color: #000000;
-    background: #000000;
-    font-size: 20px;
-    font-family: 'Helvetica Neue', 'Lucida Grande', 'Segoe UI', Arial, Helvetica, Verdana, sans-serif;
-    border: 1px solid #CCCC00;
-    margin: 2px auto auto 0px;
-    padding: 2px;
-    color: #CCCCCC;
-}
-
 #title {
     font-size: 40px;
 }
 
 #divbox {
     height: 100px;
+}
+
+body {
+    width: 960px;
+    min-height: 400px;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', 'Lucida Grande', 'Segoe UI', Arial, Helvetica, Verdana, sans-serif;
+    border: 1px solid #CCCC00;
+    margin: 100px auto auto 100px;
+    padding: 20px;
+    color: #ffffe6;
+    background-image: url("http://pomodoropizza.co.za/wp-content/uploads/pizza-background.jpg");
+}
+
+@media only screen and (max-width: 360px) {
+    body {
+        margin: 10px 5px 10px 5px;
+        height: 100%;
+    }
+  
 }
